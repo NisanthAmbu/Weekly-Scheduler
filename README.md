@@ -1,1 +1,5 @@
-# Weekly-Scheduler
+# Weekly Scheduler 
+
+A new Flutter project.
+
+
