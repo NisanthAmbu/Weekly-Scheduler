@@ -11,7 +11,7 @@ class HomeViewModel
             "${availableTimes != "available on" ? ", " : " "}${element.day} ";
         if (element.events.length == 3) {
           availableTimes += "whole day";
-          break;
+          continue;
         }
         var eventEntries = element.events.entries;
         int i = 0;
